@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SharedProductData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ReleaseDescriptorNoSpaces>XeroxWorkCentre75XX</ReleaseDescriptorNoSpaces>
+  <ReleaseDescriptorWithSpaces>Xerox WorkCentre 7556/7545/7535/7530/7525</ReleaseDescriptorWithSpaces>
+  <RecommendedPdl>PS</RecommendedPdl>
+  <V4DriverPDL>XPS</V4DriverPDL>
+  <V4DriverPDL>PS</V4DriverPDL>
+  <V4DriverPDL>PCL6</V4DriverPDL>
+  <WebLinkModelId>WC7525_WC7530_WC7535_WC7545_WC7556</WebLinkModelId>
+  <CWISColorLevelsLink>http://{0}/status/consumables.php</CWISColorLevelsLink>
+  <CWISPaperLevelsLink>http://{0}/status/trays.php</CWISPaperLevelsLink>
+  <DefaultRegistrationModel>WC7525_WC7530_WC7535_WC7545_WC7556</DefaultRegistrationModel>
+  <capabilities>
+    <ControllerFamily>DISCOVERY</ControllerFamily>
+    <ControllerFamilyVersion>1.6</ControllerFamilyVersion>
+    <!-- Microsoft's Auto-Config requires firmware update to D2.1 which, although installed internally on some lab
+         machines, is not expected to tested and released to customers except possibly as SPARs/FERs. -->
+    <MicrosoftWsdMonAutoConfig>NotSupported</MicrosoftWsdMonAutoConfig>
+    <MicrosoftTcpMonAutoConfig>NotSupported</MicrosoftTcpMonAutoConfig>
+    <XBDSLevel>1.0</XBDSLevel>
+    <XCPTLevel>1.0</XCPTLevel>
+    <CBRLevel>1.0</CBRLevel>
+    <ColorCapability>Color</ColorCapability>
+    <MediaTypeTranslation>Office</MediaTypeTranslation>
+    <LDAPPhonebook>Available</LDAPPhonebook>
+  </capabilities>
+  <models>
+    <PrinterModel>
+      <ModelName>Xerox WorkCentre 7556</ModelName>
+      <SysObjectIds>
+        <string>1.3.6.1.4.1.253.8.62.1.20.5.41</string>
+      </SysObjectIds>
+      <USBProductId>42A6</USBProductId>
+      <RatedSpeed>55</RatedSpeed>
+      <HardwareId>XeroxWorkCentre_7556F2A7</HardwareId>
+      <ConditionalModelDesignation>7556</ConditionalModelDesignation>
+      <WebLinkModelId>WC7525_WC7530_WC7535_WC7545_WC7556</WebLinkModelId>
+    </PrinterModel>
+    <PrinterModel>
+      <ModelName>Xerox WorkCentre 7545</ModelName>
+      <SysObjectIds>
+        <string>1.3.6.1.4.1.253.8.62.1.20.5.40</string>
+      </SysObjectIds>
+      <USBProductId>42A5</USBProductId>
+      <RatedSpeed>45</RatedSpeed>
+      <HardwareId>XeroxWorkCentre_754563E6</HardwareId>
+      <ConditionalModelDesignation>7545</ConditionalModelDesignation>
+      <WebLinkModelId>WC7525_WC7530_WC7535_WC7545_WC7556</WebLinkModelId>
+    </PrinterModel>
+    <PrinterModel>
+      <ModelName>Xerox WorkCentre 7535</ModelName>
+      <SysObjectIds>
+        <string>1.3.6.1.4.1.253.8.62.1.20.5.39</string>
+      </SysObjectIds>
+      <USBProductId>42A4</USBProductId>
+      <RatedSpeed>35</RatedSpeed>
+      <HardwareId>XeroxWorkCentre_753553E4</HardwareId>
+      <ConditionalModelDesignation>7535</ConditionalModelDesignation>
+      <WebLinkModelId>WC7525_WC7530_WC7535_WC7545_WC7556</WebLinkModelId>
+    </PrinterModel>
+    <PrinterModel>
+      <ModelName>Xerox WorkCentre 7530</ModelName>
+      <SysObjectIds>
+        <string>1.3.6.1.4.1.253.8.62.1.20.5.38</string>
+      </SysObjectIds>
+      <USBProductId>42A3</USBProductId>
+      <RatedSpeed>30</RatedSpeed>
+      <HardwareId>XeroxWorkCentre_75305024</HardwareId>
+      <ConditionalModelDesignation>7530</ConditionalModelDesignation>
+      <WebLinkModelId>WC7525_WC7530_WC7535_WC7545_WC7556</WebLinkModelId>
+    </PrinterModel>
+    <PrinterModel>
+      <ModelName>Xerox WorkCentre 7525</ModelName>
+      <SysObjectIds>
+        <string>1.3.6.1.4.1.253.8.62.1.20.5.37</string>
+      </SysObjectIds>
+      <USBProductId>42A2</USBProductId>
+      <RatedSpeed>25</RatedSpeed>
+      <HardwareId>XeroxWorkCentre_7525C3E5</HardwareId>
+      <ConditionalModelDesignation>7525</ConditionalModelDesignation>
+      <WebLinkModelId>WC7525_WC7530_WC7535_WC7545_WC7556</WebLinkModelId>
+    </PrinterModel>
+  </models>
+</SharedProductData>

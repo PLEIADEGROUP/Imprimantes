@@ -1,0 +1,155 @@
+
+
+;***************************************************************************************
+; INF file for Xerox WorkCentre 7556/7545/7535/7530/7525 PCL6 print driver
+; Copyright (c) 2015 Xerox Corporation
+; All rights reserved.
+;***************************************************************************************
+
+
+[Version]
+Signature="$Windows NT$"
+Provider=%XR%
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+CatalogFile=XeroxWorkCentre75XX.cat
+ClassVer=4.0
+DriverVer=08/23/2015,6.159.8.5
+
+[Manufacturer]
+"Xerox"=Model,NTamd64
+[Model.NTamd64]
+"Xerox WorkCentre 7556 V4 PCL6" = INSTALL_SECTION_7556,usbprint\XeroxWorkCentre_7556F2A7
+"Xerox WorkCentre 7556 V4 PCL6" = INSTALL_SECTION_7556,wsdprint\XeroxWorkCentre_7556F2A7
+"Xerox WorkCentre 7545 V4 PCL6" = INSTALL_SECTION_7545,usbprint\XeroxWorkCentre_754563E6
+"Xerox WorkCentre 7545 V4 PCL6" = INSTALL_SECTION_7545,wsdprint\XeroxWorkCentre_754563E6
+"Xerox WorkCentre 7535 V4 PCL6" = INSTALL_SECTION_7535,usbprint\XeroxWorkCentre_753553E4
+"Xerox WorkCentre 7535 V4 PCL6" = INSTALL_SECTION_7535,wsdprint\XeroxWorkCentre_753553E4
+"Xerox WorkCentre 7530 V4 PCL6" = INSTALL_SECTION_7530,usbprint\XeroxWorkCentre_75305024
+"Xerox WorkCentre 7530 V4 PCL6" = INSTALL_SECTION_7530,wsdprint\XeroxWorkCentre_75305024
+"Xerox WorkCentre 7525 V4 PCL6" = INSTALL_SECTION_7525,usbprint\XeroxWorkCentre_7525C3E5
+"Xerox WorkCentre 7525 V4 PCL6" = INSTALL_SECTION_7525,wsdprint\XeroxWorkCentre_7525C3E5
+"Xerox WorkCentre 7556 V4 PCL6" = INSTALL_SECTION_7556,{59ab8b6f-d522-4150-9033-b5ee283b0bff}
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+;--Class Driver only--;[GENERIC.AddProp]
+;--Class Driver only--;GenericDriverInstalled,,,,1 
+[INSTALL_SECTION_7556]
+CopyFiles=GENERAL_FILES,LOCALE_FILES,XR_FILTER_FILES,MODEL_7556_FILES
+
+[INSTALL_SECTION_7545]
+CopyFiles=GENERAL_FILES,LOCALE_FILES,XR_FILTER_FILES,MODEL_7545_FILES
+
+[INSTALL_SECTION_7535]
+CopyFiles=GENERAL_FILES,LOCALE_FILES,XR_FILTER_FILES,MODEL_7535_FILES
+
+[INSTALL_SECTION_7530]
+CopyFiles=GENERAL_FILES,LOCALE_FILES,XR_FILTER_FILES,MODEL_7530_FILES
+
+[INSTALL_SECTION_7525]
+CopyFiles=GENERAL_FILES,LOCALE_FILES,XR_FILTER_FILES,MODEL_7525_FILES
+
+
+[MODEL_7556_FILES]
+7556.GPD
+7556-manifest.ini
+7556.dpb
+7556-conf.GPD
+
+[MODEL_7545_FILES]
+7545.GPD
+7545-manifest.ini
+7545.dpb
+7545-conf.GPD
+
+[MODEL_7535_FILES]
+7535.GPD
+7535-manifest.ini
+7535.dpb
+7535-conf.GPD
+
+[MODEL_7530_FILES]
+7530.GPD
+7530-manifest.ini
+7530.dpb
+7530-conf.GPD
+
+[MODEL_7525_FILES]
+7525.GPD
+7525-manifest.ini
+7525.dpb
+7525-conf.GPD
+
+[GENERAL_FILES]
+ProductData.xml
+XeroxWorkCentre75XX-pipelineconfig.xml
+XeroxWorkCentre75XX-constraints.js
+XeroxWorkCentre75XX-qpb.xml
+XeroxWorkCentre75XX-devmode-map.xml
+
+[LOCALE_FILES]
+XeroxWorkCentre75XX-textres.gpd
+xr-TextResources.dll
+
+[XR_FILTER_FILES]
+xr-Utilities.v6.159.8.5.dll
+xr-FilterUtilities.v6.159.8.5.dll
+xr-VFilter.dll
+xr-TransformFilter.dll
+xr-AnnotationFilter.dll
+xr-PDLStreamFilter.dll
+msvcr120.dll
+msvcp120.dll
+
+[SourceDisksNames.amd64]
+1 = %Location%,,
+2 = %Location%,,,x64
+
+[SourceDisksFiles]
+7556.GPD                                           = 1
+7556-manifest.ini                                  = 1
+7556-conf.GPD                                      = 1
+7556.dpb                                           = 1
+7545.GPD                                           = 1
+7545-manifest.ini                                  = 1
+7545-conf.GPD                                      = 1
+7545.dpb                                           = 1
+7535.GPD                                           = 1
+7535-manifest.ini                                  = 1
+7535-conf.GPD                                      = 1
+7535.dpb                                           = 1
+7530.GPD                                           = 1
+7530-manifest.ini                                  = 1
+7530-conf.GPD                                      = 1
+7530.dpb                                           = 1
+7525.GPD                                           = 1
+7525-manifest.ini                                  = 1
+7525-conf.GPD                                      = 1
+7525.dpb                                           = 1
+XeroxWorkCentre75XX-pipelineconfig.xml             = 1
+XeroxWorkCentre75XX-constraints.js                 = 1
+XeroxWorkCentre75XX-qpb.xml                        = 1
+XeroxWorkCentre75XX-devmode-map.xml                = 1
+XeroxWorkCentre75XX-textres.gpd                    = 1
+ProductData.xml = 1
+xr-TextResources.dll                               = 2
+xr-Utilities.v6.159.8.5.dll                        = 2
+xr-FilterUtilities.v6.159.8.5.dll                  = 2
+xr-VFilter.dll                                     = 2
+xr-TransformFilter.dll                             = 2
+xr-AnnotationFilter.dll                            = 2
+xr-PDLStreamFilter.dll                             = 2
+msvcr120.dll                                       = 2
+msvcp120.dll                                       = 2
+
+
+[OEM URLS]
+"Xerox"="http://go.microsoft.com/fwlink/?LinkID=49&prd=10798&sbp=Printers"
+
+
+[Strings]
+Location="Xerox WorkCentre 7556/7545/7535/7530/7525"
+XR="Xerox"
+
